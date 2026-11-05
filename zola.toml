@@ -1,4 +1,4 @@
-base_url = "https://example.com"
+base_url = "https://gaiasblog.gaiadfa.workers.dev"
 title = "gaia's blog"
 description = "a place for thoughts"
 default_language = "en"
@@ -39,14 +39,16 @@ nav = [
 ]
 
 # Your info on the home page, if you don't want to display handle/bio/avatar, simply comment out that line
-name = "Gaia" # main name
-handle = "gaia" # @name
-bio = "schiccherie" # name subtitle
+name = "gaia's blog" # main name
+handle = "schiccherie" # @name
+bio = "brain wasteland" # name subtitle  of a second thought haver
 avatar = "img/avatar.webp"
 links = [
   { name = "Email", icon = "email", url = "mailto:gaiadfa@tuta.io" },
   { name = "Telegram", icon = "telegram", url = "https://t.me/gaiahahah" },
-  #{ name = "ORCiD", icon = "orcid", url = "https://orcid.org/0000-0002-5263-5062" },
+  { name = "ORCiD", icon = "orcid", url = "https://orcid.org/0000-0002-5263-5062" },
+  { name = "Letterboxd", icon = "letterboxd", url = "https://boxd.it/2dXg3" },
+  { name = "Goodreads", icon = "goodreads", url = "https://www.goodreads.com/user/show/206196277" },
 ]
 blog_section_path = "/posts" # Path of the main blog section, used by home page's recent posts and tags pages
 
@@ -59,7 +61,7 @@ footer_copyright = "© 2026 gaiahah"
 footer_credits = true # Whether to show "Built with zola and serene" in footer
 
 not_found_error_text = "404 Not Found"
-not_found_recover_text = "« back to home »"
+not_found_recover_text = "« back to home"
 
 # Site-wide default values of display options, can be overridden in a section's `_index.md`, and again in a post's front-matter
 date_format = "%b %-d, %Y"
